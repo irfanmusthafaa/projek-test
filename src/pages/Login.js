@@ -68,8 +68,6 @@ export default class Login extends Component {
 
     onSubmit=(e)=>{
         e.preventDefault()
-        let values = this.state
-        console.log(values.email)
 
         let data ={
           username: this.state.username,
